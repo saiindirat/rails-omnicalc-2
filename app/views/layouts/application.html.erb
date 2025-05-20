@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rails Omnicalc-2</title>
+    <title>Omnicalc 2</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
   <body>
-    <table style="width: 100%" border="1">
+    <table border="1" width="100%">
       <tr>
-        <td>
-          <a href="/add">Add</a>
-        </td>
-
-        <td>
-          <a href="/subtract">Subtract</a>
-        </td>
-
-        <td>
-          <a href="/multiply">Multiply</a>
-        </td>
-
-        <td>
-          <a href="/divide">Divide</a>
-        </td>
+        <td><a href="/add">Add</a></td>
+        <td><a href="/subtract">Subtract</a></td>
+        <td><a href="/multiply">Multiply</a></td>
+        <td><a href="/divide">Divide</a></td>
       </tr>
     </table>
+
     <%= yield %>
   </body>
 </html>
